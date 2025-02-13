@@ -6,15 +6,15 @@ The objective is to design and develop a dynamic and interactive Car Sales Dashb
 ## GENERAL FEATURES
 ### Key Metrics Tracked:
 #### The dashboard focuses on the following KPIs:
-- Sales Overview: Year-to-Date (YTD), Month-to-Date (MTD), Year-over-Year (YOY) growth, and comparisons with previous year figures.
-- Average Price Analysis: Insights into average car prices over time and YOY growth.
-- Cars Sold Metrics: Total cars sold by YTD/MTD, YOY growth, and comparisons with previous periods.
++ Sales Overview: Year-to-Date (YTD), Month-to-Date (MTD), Year-over-Year (YOY) growth, and comparisons with previous year figures.
++ Average Price Analysis: Insights into average car prices over time and YOY growth.
++ Cars Sold Metrics: Total cars sold by YTD/MTD, YOY growth, and comparisons with previous periods.
 #### Visualizations Included:
-- Weekly Sales Trend: Line chart for displaying weekly YTD sales trends.
-- Sales by Body Style: Pie chart for showing the proportion of total sales by car body style.
-- Sales by Color: Pie chart for highlighting contributions of different car colors to total sales.
-- Regional Sales Distribution: Map chart for visualizing YTD car sales across dealer regions.
-- Company-Wise Sales Trends: Tabular grid for summarizing YTD sales for each company.
++ Weekly Sales Trend: Line chart for displaying weekly YTD sales trends.
++ Sales by Body Style: Pie chart for showing the proportion of total sales by car body style.
++ Sales by Color: Pie chart for highlighting contributions of different car colors to total sales.
++ Regional Sales Distribution: Map chart for visualizing YTD car sales across dealer regions.
++ Company-Wise Sales Trends: Tabular grid for summarizing YTD sales for each company.
 
 ## DAX FORMULAS USED
 The following DAX formulas were used for KPI Calculation and visualization in dashboard
@@ -98,8 +98,8 @@ Max Point on Area Chart = IF(MAXX(ALLSELECTED('Calendar Table'[Week]), [Total Sa
 ```
 
 ## KEY FEATURES
-- Interactive visualizations along with dynamic filtering options.
-- Better monitoring of critical KPIs.
-- Charts and Grids for better understanding and decision-making.
-- Allows analysis of sales trends across various dimensions (time, region, body style, color).
++ Interactive visualizations along with dynamic filtering options.
++ Better monitoring of critical KPIs.
++ Charts and Grids for better understanding and decision-making.
++ Allows analysis of sales trends across various dimensions (time, region, body style, color).
 
